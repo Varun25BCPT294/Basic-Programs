@@ -8,5 +8,6 @@ int main()
     scanf("%f",&c);
     printf("Enter Marks Of Maths Out Of 100:\n");
     scanf("%f",&m);
-    printf("Total Of Three Subjects and Average Of Three Subjects is:%f ,%f\n",t=p+m+c,t/3);
+    printf("Total Of Three Subjects is:%f\n",t=p+m+c);
+    printf("Average Of Three Subjects is:%f\n",t/3);
 }
